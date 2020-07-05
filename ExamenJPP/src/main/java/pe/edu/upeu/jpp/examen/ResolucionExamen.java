@@ -42,10 +42,10 @@ public class ResolucionExamen{
         for(int dato1 = 1; dato1 <= 20;dato1++){
             for(int dato2 = 1; dato2 <= 10;dato2++){
             total = dato1 * dato2;
-            system.out.println(dato1+" X "+dato2+" = "+total);
+            System.out.println(dato1+" X "+dato2+" = "+total);
             }
         }
-        system.out.println("\n");
+        System.out.println("\n");
     }
     public void NumerosPerfectos(int numero) {
         int i = 1;
